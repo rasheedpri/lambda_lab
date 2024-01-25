@@ -1,4 +1,5 @@
 const mysql = require('mysql2/promise');
+const cors = require('cors');
 
 const pool = mysql.createPool({
   host: '34.235.111.65',
